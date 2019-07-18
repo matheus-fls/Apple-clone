@@ -6,6 +6,8 @@ body{
     margin-top: 0;
 }
 
+button{cursor: pointer;}
+
 .hero,
 .big-image-container {
     width: 1440px;
@@ -15,6 +17,7 @@ body{
 .hero {
     height: 675px;
     background: #fff url("../images/image1.jpg") 0 100% no-repeat;
+    position: relative;
 }
 
 .big-image-container {
@@ -34,3 +37,45 @@ body{
 .contained-image img{
     width: 100%
 }
+
+.navbar{
+    width: 980px;
+    height: 36px;
+    background: linear-gradient(0, rgb(124,124,124) 50%, rgb(99,99,99) 50%);
+    position: relative;
+    margin: 0 auto;
+    top: 85px;
+    border-radius: 4px;
+    font-size: 0;
+}
+
+.nav-btn,
+.nav-search{
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+}
+
+.nav-btn{
+    width: 105px;
+    height: 100%;
+    color: #fff;
+    border-style: solid;
+    border-color: rgb(99,99,99);
+    border-width: 0.1px;
+}
+
+.nav-btn:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.nav-search{
+    width: 120px;
+    left: 10px;
+}
+
+/*
+.apple-btn{
+    font-size: 26px;
+}
+*/
