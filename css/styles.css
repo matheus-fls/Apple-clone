@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 0;
+}
+
+.hero,
+.big-image-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 675px;
+    background: #fff url("../images/image1.jpg") 0 100% no-repeat;
+}
+
+.big-image-container {
+    margin-top: 2px;
+    font-size: 0;
+}
+
+.contained-image {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    width: 360px;
+    box-sizing: border-box;
+    padding-right: 2px;
+}
+
+.contained-image img{
+    width: 100%
+}
