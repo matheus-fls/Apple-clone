@@ -63,7 +63,6 @@ button{cursor: pointer;}
     border-right: thin;
     border-right-style: solid;
     border-right-color: rgba(0, 0, 0, 0.3);
-    font-size: 13px;
     float: left;
     background-color: transparent;
     text-shadow: 0 -1px black;
@@ -105,3 +104,29 @@ i.fa::before{
   color: #fff;
   text-shadow: 0 1px black;
 }
+
+.main-content{
+    width: 980px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin: 14px 0;
+}
+
