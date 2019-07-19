@@ -47,22 +47,28 @@ button{cursor: pointer;}
     top: 85px;
     border-radius: 4px;
     font-size: 0;
+    clear: left;
 }
-
+/*
 .nav-btn,
-.nav-search{
+.nav-search {
     display: inline-block;
     position: relative;
     background-color: transparent;
 }
+*/
 
 .nav-btn{
     width: 105px;
     height: 100%;
     color: #fff;
     border-style: solid;
-    border-color: rgb(99,99,99);
-    border-width: 0.1px;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    float: left;
+    background-color: transparent;
+    text-shadow: 0 -1px black;
 }
 
 .nav-btn:hover{
@@ -70,12 +76,16 @@ button{cursor: pointer;}
 }
 
 .nav-search{
-    width: 120px;
-    left: 10px;
+    width: 111px;
+    position: relative;
+    top: 7px;
+    right: -15px;
+    background-color: transparent;
+    border-radius: 15px;
+    
 }
 
-/*
-.apple-btn{
-    font-size: 26px;
+i.fa::before{
+    font-size: 21px;
 }
-*/
+
