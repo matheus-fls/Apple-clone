@@ -138,11 +138,11 @@ a{
     display: block;
 }
 
-.toes a{color: #08c;}
-
 footer a {
     display: inline;
 }
+
+.toes a{color: #08c;}
 
 .video-a{
     margin-top: 30px;
