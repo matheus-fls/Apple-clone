@@ -47,7 +47,6 @@ button{cursor: pointer;}
     top: 85px;
     border-radius: 4px;
     font-size: 0;
-    clear: left;
     border-style: solid;
     border-width: thin;
     border-color: rgba(0, 0, 0, 0.1);
@@ -158,4 +157,82 @@ a{
     top: 426px;
     right: 400px;
     font-size: 30px;
+}
+
+.big-foot{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    display: inline;
+}
+
+.sock{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.left-foot{
+    float: left;
+    height: 45px;
+    width: 50%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.right-foot{
+    float: right;
+    height: 45px;
+    width: 50%;
+    text-align: right;
+    padding-top: 20px;
+}
+
+ul {padding: 0;}
+
+li{
+    display: inline;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right-color: gray;
+    border-right: 1px;
+    border-right-style: solid;
+}
+
+.toes{
+    text-decoration: none;
+    color: #08c;
+    line-height: 16px;
+}
+
+.pinky {
+    padding-right: 0;
+    border: none;
+}
+
+.pinky img{
+    float: right;
+    clear: right;
+}
+
+.toes a{color: #08c;}
+
+.toes:hover{text-decoration: underline};
+
+.foot-footer{
+    clear: both;
+    float: left;
+    height: 45px;
+    width: 50%;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.foot-text{
+    display: inline-block;
+    font-size: 11px;
+    color: #6e6e6e;
 }
