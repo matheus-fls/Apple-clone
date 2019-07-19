@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body{
     margin-top: 0;
 }
@@ -15,7 +11,7 @@ button{cursor: pointer;}
 }
 
 .hero {
-    height: 675px;
+    height: 669px;
     background: #fff url("../images/image1.jpg") 0 100% no-repeat;
     position: relative;
 }
@@ -47,9 +43,9 @@ button{cursor: pointer;}
     top: 85px;
     border-radius: 4px;
     font-size: 0;
-    clear: left;
     border-style: solid;
     border-width: thin;
+    border-color: rgb(0,0,0);
     border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -62,6 +58,7 @@ button{cursor: pointer;}
     border-left: none;
     border-right: thin;
     border-right-style: solid;
+    border-right-color: rgb(0,0,0);
     border-right-color: rgba(0, 0, 0, 0.3);
     float: left;
     background-color: transparent;
@@ -70,6 +67,7 @@ button{cursor: pointer;}
 }
 
 .nav-btn:hover{
+    background-color: rgb(0,0,0);
     background-color:rgba(0, 0, 0, 0.3);
 }
 
@@ -80,6 +78,7 @@ button{cursor: pointer;}
     right: -15px;
     background-color: transparent;
     border-radius: 15px;
+    border-color: rgb(0,0,0);
     border-color:rgba(0, 0, 0, 0.5);
     border-style: inset;
 }
@@ -139,6 +138,12 @@ a{
     display: block;
 }
 
+footer a {
+    display: inline;
+}
+
+.toes a{color: #08c;}
+
 .video-a{
     margin-top: 30px;
     font-size: 28px;
@@ -158,4 +163,72 @@ a{
     top: 426px;
     right: 400px;
     font-size: 30px;
+}
+
+.big-foot{
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.sock{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.left-foot{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.right-foot{
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+ul {padding: 0;}
+
+li{
+    display: inline;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right-color: gray;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.toes{
+    text-decoration: none;
+    color: #08c;
+    line-height: 16px;
+}
+
+.pinky {
+    padding-right: 0;
+    border: none;
+}
+
+.pinky img{
+    float: right;
+    clear: right;
+}
+
+.toes:hover{text-decoration: underline;}
+
+.foot-footer{
+    clear: both;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.foot-text{
+    display: inline-block;
+    font-size: 11px;
+    color: #6e6e6e;
 }
