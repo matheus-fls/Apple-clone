@@ -6,6 +6,8 @@ body{
     margin-top: 0;
 }
 
+button{cursor: pointer;}
+
 .hero,
 .big-image-container {
     width: 1440px;
@@ -15,6 +17,7 @@ body{
 .hero {
     height: 675px;
     background: #fff url("../images/image1.jpg") 0 100% no-repeat;
+    position: relative;
 }
 
 .big-image-container {
@@ -33,4 +36,72 @@ body{
 
 .contained-image img{
     width: 100%
+}
+
+.navbar{
+    width: 980px;
+    height: 36px;
+    background: linear-gradient(0, rgb(124,124,124) 50%, rgb(99,99,99) 50%);
+    position: relative;
+    margin: 0 auto;
+    top: 85px;
+    border-radius: 4px;
+    font-size: 0;
+    clear: left;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn{
+    width: 105px;
+    height: 100%;
+    color: #fff;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: thin;
+    border-right-style: solid;
+    border-right-color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    float: left;
+    background-color: transparent;
+    text-shadow: 0 -1px black;
+    font: 13px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav-btn:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.nav-search{
+    width: 111px;
+    position: relative;
+    top: 7px;
+    right: -15px;
+    background-color: transparent;
+    border-radius: 15px;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-style: inset;
+}
+
+i.fa{
+    padding-top: 1px;
+}
+
+i.fa::before{
+    font-size: 21px;
+}
+
+.search { position: relative; }
+
+.search input { text-indent: 30px;}
+
+.search .fa-search { 
+  position: absolute;
+  top: 12px;
+  right: 102px;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0 1px black;
 }
