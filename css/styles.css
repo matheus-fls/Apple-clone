@@ -56,11 +56,13 @@ button{cursor: pointer;}
     border-width: thin;
     border-color: rgb(0,0,0);
     border-color: rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 .nav-btn{
     width: 105px;
     height: 100%;
+    display: flex;
     color: #fff;
     border-top: none;
     border-bottom: none;
@@ -69,7 +71,8 @@ button{cursor: pointer;}
     border-right-style: solid;
     border-right-color: rgb(0,0,0);
     border-right-color: rgba(0, 0, 0, 0.3);
-    float: left;
+    justify-content: center;
+    flex-direction: column;
     background-color: transparent;
     text-shadow: 0 -1px black;
     font: 13px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -79,6 +82,8 @@ button{cursor: pointer;}
     background-color: rgb(0,0,0);
     background-color:rgba(0, 0, 0, 0.3);
 }
+
+
 
 .nav-search{
     width: 111px;
