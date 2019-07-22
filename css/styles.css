@@ -1,4 +1,3 @@
-
 body{
     margin-top: 0;
 }
@@ -31,9 +30,18 @@ button{cursor: pointer;}
     padding-right: 2px;
 }
 
-.contained-image img{
-    width: 100%
+.background-img-container {
+    width: 100%;
+    height: 200px;
 }
+
+.bic-1{background: #fff url("../images/image2.png") 0 100% no-repeat;}
+
+.bic-2{background: #fff url("../images/image3.png") 0 100% no-repeat;}
+
+.bic-3{background: #fff url("../images/image4.png") 0 100% no-repeat;}
+
+.bic-4{background: #fff url("../images/image5.png") 0 100% no-repeat;}
 
 .navbar{
     width: 980px;
