@@ -83,8 +83,6 @@ button{cursor: pointer;}
     background-color:rgba(0, 0, 0, 0.3);
 }
 
-
-
 .nav-search{
     width: 111px;
     position: relative;
@@ -153,7 +151,7 @@ a{
 }
 
 footer a {
-    display: inline;
+    display: inline-flex;
 }
 
 .toes a{color: #08c;}
@@ -202,13 +200,13 @@ footer a {
     float: right;
     width: 50%;
     text-align: right;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 ul {padding: 0;}
 
 li{
-    display: inline;
+    display: inline-flex;
     margin-right: 5px;
     padding-right: 5px;
     border-right-color: gray;
@@ -225,11 +223,6 @@ li{
 .pinky {
     padding-right: 0;
     border: none;
-}
-
-.pinky img{
-    float: right;
-    clear: right;
 }
 
 .toes:hover{text-decoration: underline;}
