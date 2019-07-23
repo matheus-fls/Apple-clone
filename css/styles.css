@@ -30,9 +30,18 @@ button{cursor: pointer;}
     padding-right: 2px;
 }
 
-.contained-image img{
-    width: 100%
+.background-img-container {
+    width: 100%;
+    height: 200px;
 }
+
+.bic-1{background: #fff url("../images/image2.png") 0 100% no-repeat;}
+
+.bic-2{background: #fff url("../images/image3.png") 0 100% no-repeat;}
+
+.bic-3{background: #fff url("../images/image4.png") 0 100% no-repeat;}
+
+.bic-4{background: #fff url("../images/image5.png") 0 100% no-repeat;}
 
 .navbar{
     width: 980px;
@@ -47,11 +56,13 @@ button{cursor: pointer;}
     border-width: thin;
     border-color: rgb(0,0,0);
     border-color: rgba(0, 0, 0, 0.1);
+    display: flex;
 }
 
 .nav-btn{
     width: 105px;
     height: 100%;
+    display: flex;
     color: #fff;
     border-top: none;
     border-bottom: none;
@@ -60,7 +71,8 @@ button{cursor: pointer;}
     border-right-style: solid;
     border-right-color: rgb(0,0,0);
     border-right-color: rgba(0, 0, 0, 0.3);
-    float: left;
+    justify-content: center;
+    flex-direction: column;
     background-color: transparent;
     text-shadow: 0 -1px black;
     font: 13px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -139,7 +151,7 @@ a{
 }
 
 footer a {
-    display: inline;
+    display: inline-flex;
 }
 
 .toes a{color: #08c;}
@@ -188,13 +200,13 @@ footer a {
     float: right;
     width: 50%;
     text-align: right;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 ul {padding: 0;}
 
 li{
-    display: inline;
+    display: inline-flex;
     margin-right: 5px;
     padding-right: 5px;
     border-right-color: gray;
@@ -211,11 +223,6 @@ li{
 .pinky {
     padding-right: 0;
     border: none;
-}
-
-.pinky img{
-    float: right;
-    clear: right;
 }
 
 .toes:hover{text-decoration: underline;}
